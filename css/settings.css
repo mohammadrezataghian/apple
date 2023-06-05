@@ -1,0 +1,15 @@
+@font-face {
+    font-family: apple;
+    src: url(../fonts/SFProText-Regular.eot);
+    src: url(../fonts/SFProText-Regular.ttf);
+    src: url(../fonts/SFProText-Regular.woff);
+    src: url(../fonts/SFProText-Regular.woff2);
+}
+html,body{
+    font-family: apple;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

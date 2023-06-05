@@ -1,0 +1,22 @@
+{
+  "name": "apple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main":"node-sass -w scss/ -o css/ -r",
+    "xxl":"node-sass -w scss/xxl/xxl.scss -o css/xxl/xxl.css -r",
+    "xl":"node-sass -w scss/xl/xl.scss -o css/xl/ -r",
+    "lg":"node-sass -w scss/lg/lg.scss -o css/lg/ -r",
+    "md":"node-sass -w scss/md/md.scss -o css/md/ -r",
+    "sm":"node-sass -w scss/sm/sm.scss -o css/sm/ -r",
+    "xs":"node-sass -w scss/xs/.scss -o css/xs/ -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}
