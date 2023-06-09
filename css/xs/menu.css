@@ -19,7 +19,7 @@ div.wrapper>div.label>i:hover{
 }
 div.wrapper>div.label>label{
     position: absolute;
-    top: 10px;
+    top: 8px;
     left: 90%;
     /* background-color: blueviolet; */
     /* z-index: 2; */
@@ -33,7 +33,7 @@ div.wrapper>div.menu{
     height: 40px;
     /* background-color: blueviolet; */
     position: absolute;
-    top: -110%;
+    top: -160%;
     left: 0;
     transition: 600ms;
     z-index: 5;
@@ -51,7 +51,7 @@ div.wrapper>div.menu>nav>ul{
 div.wrapper>div.menu>nav>ul>li>a>label{
     position: absolute;
     top: 0;
-    left: 95%;
+    left: 92%;
     font-size: 25px;
     color: yellow;
 }

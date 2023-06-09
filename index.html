@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mohammadreza Taghian">
-    <title>Document</title>
+    <title>Apple</title>
+    <link rel="icon" href="./images/favico/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./icons/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -445,7 +446,28 @@
         </div>
         <!-- end div seventh -->
         <!-- start slider -->
-
+        <div class="slidermamad">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/15.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/16.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/17.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/18.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/19.jpg" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
         <!-- end slider -->
         <!-- start footer -->
         <footer>
@@ -556,10 +578,34 @@
             </div>
         </footer>
         <!-- end footer -->
-        
+
         <!-- end body -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "2",
+          spaceBetween: 0,
+          loop: true,
+          coverflowEffect: {
+            rotate: 75,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        });
+      </script>
     <!-- end project -->
 </body>
 </html>
